@@ -636,12 +636,12 @@ margin-top:50px;
     font-weight: 500;
     margin-top: 0px;
     vertical-align:baseline;
-    padding: 10px;
+    padding: 5%;
   
 }
 .sectionContent {
     float: right;
-    width: 72%;
+    width: 75%;
     margin-top: 10px;
 }
 
@@ -729,8 +729,14 @@ section {
     
 }
 
-#bullet:before {
+#coCurricularDateCell {
+    float: right;
+    white-space: nowrap; 
     
+}
+
+
+#bullet:before {    
     content: "\e080";
     font-family: 'Glyphicons Halflings';
     font-size: 18px;
